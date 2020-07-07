@@ -638,6 +638,9 @@ body {
   min-width: 0;
   min-height: 0;
 }
+.parti_menu .barrtitre .barre--size {
+  max-height: 20px;
+}
 .parti_menu .barrtitre .barre {
   display: block;
   max-height: 6px;
@@ -698,17 +701,9 @@ body {
 
 .container--menu2 {
   background-color: #FFF5FE;
-  /* p {
-              @include gradient_menu2;
-              font-family: 'croissant_oneregular';
-              font-size: 17px;
-          }
-          .menu2 {
-              color: $color_menu_24;
-              font-family: 'serif12_betabold';
-              font-weight: bolder;
-              font-size: xx-large;
-          }*/
+}
+.container--menu2 .barre--size {
+  max-height: 20px;
 }
 .container--menu2 .prix {
   font-family: "serif12_betabold";

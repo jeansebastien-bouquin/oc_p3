@@ -160,6 +160,9 @@
             display: flex;
             min-width: 0;
             min-height: 0;
+            .barre--size {
+                max-height: 20px;
+            }
             .barre {
                 display: block;
                 max-height: 6px;
@@ -222,6 +225,9 @@
     
     .container--menu2 {
         background-color: $color_menu_2;
+        .barre--size {
+            max-height: 20px;
+        }
         .prix {
             font-family: 'serif12_betabold';
             font-size: 20px;
@@ -269,17 +275,6 @@
                 color: $color_menu_23;
             }
         }
-        /* p {
-                    @include gradient_menu2;
-                    font-family: 'croissant_oneregular';
-                    font-size: 17px;
-                }
-                .menu2 {
-                    color: $color_menu_24;
-                    font-family: 'serif12_betabold';
-                    font-weight: bolder;
-                    font-size: xx-large;
-                }*/
     }
     
     .container--menu3 {
