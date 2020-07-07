@@ -112,6 +112,29 @@
   animation-delay: 0.4s;
 }
 
+/**
+   * Transition menu
+   */
+.barrtitre h2 {
+  position: relative;
+}
+
+.barrtitre h2::after {
+  content: "";
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  transition: transform 0.5s ease;
+  transform-origin: 0 50%;
+}
+
+.barrtitre h2:hover::after {
+  transform: scaleX(1);
+}
+
 .titre {
   width: 100%;
   display: flex;
@@ -251,6 +274,29 @@
 
 .dot:nth-child(3) {
   animation-delay: 0.4s;
+}
+
+/**
+   * Transition menu
+   */
+.barrtitre h2 {
+  position: relative;
+}
+
+.barrtitre h2::after {
+  content: "";
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  transition: transform 0.5s ease;
+  transform-origin: 0 50%;
+}
+
+.barrtitre h2:hover::after {
+  transform: scaleX(1);
 }
 
 .pieds {
@@ -403,6 +449,29 @@
 
 .dot:nth-child(3) {
   animation-delay: 0.4s;
+}
+
+/**
+   * Transition menu
+   */
+.barrtitre h2 {
+  position: relative;
+}
+
+.barrtitre h2::after {
+  content: "";
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  transition: transform 0.5s ease;
+  transform-origin: 0 50%;
+}
+
+.barrtitre h2:hover::after {
+  transform: scaleX(1);
 }
 
 body {
@@ -597,6 +666,9 @@ body {
 .container--menu1 {
   background-color: #FDE0DC;
 }
+.container--menu1 .barrtitre h2::after {
+  background: #3D1319;
+}
 .container--menu1 .prix {
   font-family: "flow_extbold";
   font-size: 20px;
@@ -663,17 +735,26 @@ body {
 .container--menu2 .first {
   color: #C77412;
 }
+.container--menu2 .first .barrtitre h2::after {
+  background: #C77412;
+}
 .container--menu2 .first p {
   color: #C77412;
 }
 .container--menu2 .second {
   color: #B55AA2;
 }
+.container--menu2 .second .barrtitre h2::after {
+  background: #B55AA2;
+}
 .container--menu2 .second p {
   color: #B55AA2;
 }
 .container--menu2 .third {
   color: #6E4CCC;
+}
+.container--menu2 .third .barrtitre h2::after {
+  background: #6E4CCC;
 }
 .container--menu2 .third p {
   color: #6E4CCC;
@@ -692,6 +773,9 @@ body {
               font-family: 'flow_extbold';
               font-size: 35px;
           }*/
+}
+.container--menu3 .barrtitre h2::after {
+  background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
 }
 .container--menu3 .prix {
   font-family: "flow_extbold";
@@ -716,6 +800,9 @@ body {
 
 .container--menu4 {
   background-color: #fbfffb;
+}
+.container--menu4 .barrtitre h2::after {
+  background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
 }
 .container--menu4 .prix {
   font-family: "flow_extbold";

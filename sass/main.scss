@@ -189,6 +189,9 @@
     
     .container--menu1 {
         background-color: $color-fond_1;
+        .barrtitre h2::after {
+            background: $color_menu_1;
+        }
         .prix {
             font-family: 'flow_extbold';
             font-size: 20px;
@@ -241,18 +244,27 @@
         }
         .first {
             color: $color_menu_24;
+            .barrtitre h2::after {
+                background: $color_menu_24;
+            }
             p {
                 color: $color_menu_24;
             }
         }
         .second {
             color: $color_menu_22;
+            .barrtitre h2::after {
+                background: $color_menu_22;
+            }
             p {
                 color: $color_menu_22;
             }
         }
         .third {
             color: $color_menu_23;
+            .barrtitre h2::after {
+                background: $color_menu_23;
+            }
             p {
                 color: $color_menu_23;
             }
@@ -272,6 +284,9 @@
     
     .container--menu3 {
         background-color: $color_fond_3;
+        .barrtitre h2::after {
+            background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
+        }
         .prix {
             font-family: 'flow_extbold';
             font-size: 20px;
@@ -305,6 +320,9 @@
     
     .container--menu4 {
         background-color: $color_fond_4;
+        .barrtitre h2::after {
+            background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
+        }
         .prix {
             font-family: 'flow_extbold';
             font-size: 20px;
