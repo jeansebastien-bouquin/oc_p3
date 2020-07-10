@@ -639,7 +639,7 @@ body {
   min-height: 0;
 }
 .parti_menu .barrtitre .barre--size {
-  max-height: 20px;
+  max-height: 20px !important;
 }
 .parti_menu .barrtitre .barre {
   display: block;
