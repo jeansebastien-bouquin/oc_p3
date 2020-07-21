@@ -195,7 +195,6 @@ body {
 
 .container {
     width: 65%;
-    padding-bottom: 70px;
     margin: 40px auto 160px auto;
     max-width: 700px;
     min-height: 800px;
@@ -397,7 +396,7 @@ body {
 @media screen and (max-width: 900px) {
     .container {
         width: 90%;
-        margin: auto;
+        margin: 0px auto 120px auto;
     }
     .menus {
         .ligne {
@@ -410,5 +409,11 @@ body {
     }
     .barre {
         display: none !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        width: 270px !important;
     }
 }
