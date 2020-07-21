@@ -107,7 +107,7 @@ body {
             /*background-color: $color_fond_1;*/
             box-shadow: 1px 1px 12px grey;
             margin: 10px 40px 10px 40px;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             @include Grow;
             /* &:hover {
                     a {
@@ -198,6 +198,7 @@ body {
     margin: 40px auto 160px auto;
     max-width: 700px;
     min-height: 800px;
+    padding-bottom: 10px;
 }
 
 .container--menu1 {
