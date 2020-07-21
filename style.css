@@ -879,6 +879,12 @@ body {
   min-width: 50px;
 }
 
+.mentions {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+
 /* DEVELOPPEMENT MOBILE*/
 @media screen and (max-width: 900px) {
   .container {
