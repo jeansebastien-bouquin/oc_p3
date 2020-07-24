@@ -1,949 +1,780 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "croissant_oneregular";
-    src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "croissant_oneregular";
+  src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "flow_extregular";
-    src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "flow_extregular";
+  src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "flow_extbold";
-    src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "flow_extbold";
+  src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "devonshireregular";
-    src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "devonshireregular";
+  src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "perspective_sans_blackregular";
-    src: url("fonts/persanbk-webfont.eot");
-    src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "perspective_sans_blackregular";
+  src: url("fonts/persanbk-webfont.eot");
+  src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "sinkin_sans200_x_light";
-    src: url("fonts/SinkinSans-200XLight-webfont.eot");
-    src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "sinkin_sans200_x_light";
+  src: url("fonts/SinkinSans-200XLight-webfont.eot");
+  src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "sinkin_sans100_thin";
-    src: url("fonts/SinkinSans-100Thin-webfont.eot");
-    src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "sinkin_sans100_thin";
+  src: url("fonts/SinkinSans-100Thin-webfont.eot");
+  src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "dancing_script_otregular";
-    src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "dancing_script_otregular";
+  src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "serif12_betabold";
-    src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "serif12_betabold";
+  src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "kaushan_scriptregular";
-    src: url("fonts/Kaushanscript/KaushanScript-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "kaushan_scriptregular";
+  src: url("fonts/Kaushanscript/KaushanScript-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
 /* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
-
-
 /* MIxin et couleur pour le menu 2 internes et externe*/
-
-
 /* COuleur et mixin pour le menu 3  */
-
-
 /*mixins et couleur pour menu 4 */
-
-
 /* mixin animation*/
-
-@-webkit-keyframes headshake {
-    25% {
-        transform: translateX(1%);
-    }
-    75% {
-        transform: translateX(-1%);
-    }
-}
-
 @keyframes headshake {
-    25% {
-        transform: translateX(1%);
-    }
-    75% {
-        transform: translateX(-1%);
-    }
+  25% {
+    transform: translateX(1%);
+  }
+  75% {
+    transform: translateX(-1%);
+  }
 }
-
 .wave {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .dot {
-    height: 8px;
-    width: 10px;
-    border-radius: 50%;
-    transform: scale(0);
-    background-color: #fdcd46;
-    display: inline-block;
-    -webkit-animation: scaling 2.5s ease-in-out infinite;
-    animation: scaling 2.5s ease-in-out infinite;
-}
-
-@-webkit-keyframes scaling {
-    0%,
-    100% {
-        transform: scale(0);
-    }
-    40% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1);
-    }
+  height: 8px;
+  width: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: #fdcd46;
+  display: inline-block;
+  animation: scaling 2.5s ease-in-out infinite;
 }
 
 @keyframes scaling {
-    0%,
-    100% {
-        transform: scale(0);
-    }
-    40% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1);
-    }
+  0%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
 }
-
 .dot:nth-child(1) {
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .dot:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .dot:nth-child(3) {
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
-
 
 /**
    * Transition menu
    */
-
 .barrtitre h2 {
-    position: relative;
+  position: relative;
 }
 
 .barrtitre h2::after {
-    content: "";
-    width: 100%;
-    transform: scaleX(0);
-    height: 3px;
-    background: black;
-    position: absolute;
-    bottom: 0;
-    transition: transform 0.5s ease;
-    transform-origin: 0 50%;
+  content: "";
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  transition: transform 0.5s ease;
+  transform-origin: 0 50%;
 }
 
 .barrtitre h2:hover::after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .titre {
-    width: 100%;
-    display: flex;
-    align-content: space-around;
-    background-color: #579c87;
-    margin: 0;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 25px;
-    color: yellow;
-    text-align: center;
-    margin: 0 0 0 0;
-    padding: 10px 10px 10px 10px;
-    box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-content: space-around;
+  background-color: #579c87;
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+  color: yellow;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
 }
-
 .titre h1 {
-    color: #fdcd46;
-    margin: 0 0 0 0;
+  color: #fdcd46;
+  margin: 0 0 0 0;
 }
-
 .titre a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 @media screen and (min-width: 768px) {
-    .titre {
-        font-size: 45px;
-    }
+  .titre {
+    font-size: 45px;
+  }
 }
 
 @font-face {
-    font-family: "croissant_oneregular";
-    src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "croissant_oneregular";
+  src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "flow_extregular";
-    src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "flow_extregular";
+  src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "flow_extbold";
-    src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "flow_extbold";
+  src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "devonshireregular";
-    src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "devonshireregular";
+  src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "perspective_sans_blackregular";
-    src: url("fonts/persanbk-webfont.eot");
-    src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "perspective_sans_blackregular";
+  src: url("fonts/persanbk-webfont.eot");
+  src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "sinkin_sans200_x_light";
-    src: url("fonts/SinkinSans-200XLight-webfont.eot");
-    src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "sinkin_sans200_x_light";
+  src: url("fonts/SinkinSans-200XLight-webfont.eot");
+  src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "sinkin_sans100_thin";
-    src: url("fonts/SinkinSans-100Thin-webfont.eot");
-    src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "sinkin_sans100_thin";
+  src: url("fonts/SinkinSans-100Thin-webfont.eot");
+  src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "dancing_script_otregular";
-    src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "dancing_script_otregular";
+  src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "serif12_betabold";
-    src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "serif12_betabold";
+  src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "kaushan_scriptregular";
-    src: url("fonts/Kaushanscript/KaushanScript-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "kaushan_scriptregular";
+  src: url("fonts/Kaushanscript/KaushanScript-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
 /* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
-
-
 /* MIxin et couleur pour le menu 2 internes et externe*/
-
-
 /* COuleur et mixin pour le menu 3  */
-
-
 /*mixins et couleur pour menu 4 */
-
-
 /* mixin animation*/
-
 @keyframes headshake {
-    25% {
-        transform: translateX(1%);
-    }
-    75% {
-        transform: translateX(-1%);
-    }
+  25% {
+    transform: translateX(1%);
+  }
+  75% {
+    transform: translateX(-1%);
+  }
 }
-
 .wave {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .dot {
-    height: 8px;
-    width: 10px;
-    border-radius: 50%;
-    transform: scale(0);
-    background-color: #fdcd46;
-    display: inline-block;
-    -webkit-animation: scaling 2.5s ease-in-out infinite;
-    animation: scaling 2.5s ease-in-out infinite;
+  height: 8px;
+  width: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: #fdcd46;
+  display: inline-block;
+  animation: scaling 2.5s ease-in-out infinite;
 }
 
 @keyframes scaling {
-    0%,
-    100% {
-        transform: scale(0);
-    }
-    40% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1);
-    }
+  0%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
 }
-
 .dot:nth-child(1) {
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .dot:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .dot:nth-child(3) {
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
-
 
 /**
    * Transition menu
    */
-
 .barrtitre h2 {
-    position: relative;
+  position: relative;
 }
 
 .barrtitre h2::after {
-    content: "";
-    width: 100%;
-    transform: scaleX(0);
-    height: 3px;
-    background: black;
-    position: absolute;
-    bottom: 0;
-    transition: transform 0.5s ease;
-    transform-origin: 0 50%;
+  content: "";
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  transition: transform 0.5s ease;
+  transform-origin: 0 50%;
 }
 
 .barrtitre h2:hover::after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .pieds {
-    font-family: sinkin_sans100_thin, sinkin_sans200_x_light, Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    background: #579c87;
-    display: flex;
-    justify-content: space-between;
-    color: #fdcd46;
-    box-sizing: border-box;
-    align-items: center;
+  font-family: sinkin_sans100_thin, sinkin_sans200_x_light, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background: #579c87;
+  display: flex;
+  justify-content: space-between;
+  color: #fdcd46;
+  box-sizing: border-box;
+  align-items: center;
 }
-
 .pieds .mentions {
-    display: flex;
-    padding: 10px 30px 10px 30px;
+  display: flex;
+  padding: 10px 30px 10px 30px;
 }
-
 .pieds .mentions :hover {
-    -webkit-animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 5;
-    animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 5;
+  animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 5;
 }
-
 .pieds .mentions a {
-    text-decoration: none;
-    color: #fdcd46;
-    margin: 0 0 0 0;
+  text-decoration: none;
+  color: #fdcd46;
+  margin: 0 0 0 0;
 }
-
 .pieds .contact {
-    display: flex;
-    padding: 10px 30px 10px 30px;
-    margin: 0 0 0 0;
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  margin: 0 0 0 0;
 }
-
 .pieds .contact :hover {
-    -webkit-animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 5;
-    animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 5;
+  animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 5;
 }
-
 .pieds .contact a {
-    text-decoration: none;
-    color: #fdcd46;
+  text-decoration: none;
+  color: #fdcd46;
 }
 
 @font-face {
-    font-family: "croissant_oneregular";
-    src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "croissant_oneregular";
+  src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "flow_extregular";
-    src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "flow_extregular";
+  src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "flow_extbold";
-    src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "flow_extbold";
+  src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "devonshireregular";
-    src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "devonshireregular";
+  src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "perspective_sans_blackregular";
-    src: url("fonts/persanbk-webfont.eot");
-    src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "perspective_sans_blackregular";
+  src: url("fonts/persanbk-webfont.eot");
+  src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "sinkin_sans200_x_light";
-    src: url("fonts/SinkinSans-200XLight-webfont.eot");
-    src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "sinkin_sans200_x_light";
+  src: url("fonts/SinkinSans-200XLight-webfont.eot");
+  src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "sinkin_sans100_thin";
-    src: url("fonts/SinkinSans-100Thin-webfont.eot");
-    src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "sinkin_sans100_thin";
+  src: url("fonts/SinkinSans-100Thin-webfont.eot");
+  src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "dancing_script_otregular";
-    src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "dancing_script_otregular";
+  src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "serif12_betabold";
-    src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "serif12_betabold";
+  src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: "kaushan_scriptregular";
-    src: url("fonts/Kaushanscript/KaushanScript-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "kaushan_scriptregular";
+  src: url("fonts/Kaushanscript/KaushanScript-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
 /* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
-
-
 /* MIxin et couleur pour le menu 2 internes et externe*/
-
-
 /* COuleur et mixin pour le menu 3  */
-
-
 /*mixins et couleur pour menu 4 */
-
-
 /* mixin animation*/
-
 @keyframes headshake {
-    25% {
-        transform: translateX(1%);
-    }
-    75% {
-        transform: translateX(-1%);
-    }
+  25% {
+    transform: translateX(1%);
+  }
+  75% {
+    transform: translateX(-1%);
+  }
 }
-
 .wave {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .dot {
-    height: 8px;
-    width: 10px;
-    border-radius: 50%;
-    transform: scale(0);
-    background-color: #fdcd46;
-    display: inline-block;
-    -webkit-animation: scaling 2.5s ease-in-out infinite;
-    animation: scaling 2.5s ease-in-out infinite;
+  height: 8px;
+  width: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: #fdcd46;
+  display: inline-block;
+  animation: scaling 2.5s ease-in-out infinite;
 }
 
 @keyframes scaling {
-    0%,
-    100% {
-        transform: scale(0);
-    }
-    40% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1);
-    }
+  0%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
 }
-
 .dot:nth-child(1) {
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .dot:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .dot:nth-child(3) {
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
-
 
 /**
    * Transition menu
    */
-
 .barrtitre h2 {
-    position: relative;
+  position: relative;
 }
 
 .barrtitre h2::after {
-    content: "";
-    width: 100%;
-    transform: scaleX(0);
-    height: 3px;
-    background: black;
-    position: absolute;
-    bottom: 0;
-    transition: transform 0.5s ease;
-    transform-origin: 0 50%;
+  content: "";
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  transition: transform 0.5s ease;
+  transform-origin: 0 50%;
 }
 
 .barrtitre h2:hover::after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 body {
-    margin: 0 0 0 0;
-    font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
+  margin: 0 0 0 0;
+  font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
 }
 
 .titre__supplement {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: normal;
-    font-family: "flow_extbold";
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "flow_extbold";
 }
 
 .menus {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-bottom: 120px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 120px;
+  justify-content: center;
+  align-items: center;
 }
-
 .menus .new {
-    text-decoration: none;
-    font-size: 1.5rem;
-    display: flex;
-    color: #fdcd46;
-    background-color: #579c87;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    padding: 10px 10px 10px 10px;
-    margin-top: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  color: #fdcd46;
+  background-color: #579c87;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 20px;
 }
-
 .menus .new h3 {
-    margin: 0 0 0 0;
-    font-size: 30px;
+  margin: 0 0 0 0;
+  font-size: 30px;
 }
-
 .menus .ligne {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 .menus .ligne .menu--first {
-    background-color: #FDE0DC;
+  background-color: #FDE0DC;
 }
-
 .menus .ligne .menu--first .note {
-    transform: scale(0.6);
-    margin: 0 auto 0 auto;
+  transform: scale(0.6);
+  margin: 0 auto 0 auto;
 }
-
 .menus .ligne .menu--first p {
-    color: #3D1319;
-    font-family: "devonshireregular";
-    font-size: 25px;
+  color: #3D1319;
+  font-family: "devonshireregular";
+  font-size: 25px;
 }
-
 .menus .ligne .menu--first .menu1 {
-    font-family: "flow_extbold";
-    font-weight: bolder;
-    font-size: 30px;
+  font-family: "flow_extbold";
+  font-weight: bolder;
+  font-size: 30px;
 }
-
 .menus .ligne .menu--second {
-    background-color: #FFF5FE;
+  background-color: #FFF5FE;
 }
-
 .menus .ligne .menu--second p {
-    background: linear-gradient(to left, #8F5AFF 0%, #C77412 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "croissant_oneregular";
-    font-size: 17px;
+  background: linear-gradient(to left, #8F5AFF 0%, #C77412 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "croissant_oneregular";
+  font-size: 17px;
 }
-
 .menus .ligne .menu--second .menu2 {
-    color: #C77412;
-    font-family: "serif12_betabold";
-    font-weight: bolder;
-    font-size: xx-large;
+  color: #C77412;
+  font-family: "serif12_betabold";
+  font-weight: bolder;
+  font-size: xx-large;
 }
-
 .menus .ligne .menu--third {
-    background-color: #EDEFEF;
+  background-color: #EDEFEF;
 }
-
 .menus .ligne .menu--third p {
-    background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "dancing_script_otregular";
-    font-size: 25px;
-    font-weight: bold;
+  background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "dancing_script_otregular";
+  font-size: 25px;
+  font-weight: bold;
 }
-
 .menus .ligne .menu--third .menu3 {
-    color: #0889FB;
-    font-family: "flow_extbold";
-    font-size: 35px;
+  color: #0889FB;
+  font-family: "flow_extbold";
+  font-size: 35px;
 }
-
 .menus .ligne .menu--fourth {
-    background-color: #fbfffb;
+  background-color: #fbfffb;
 }
-
 .menus .ligne .menu--fourth p {
-    background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "kaushan_scriptregular";
-    font-size: 25px;
+  background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "kaushan_scriptregular";
+  font-size: 25px;
 }
-
 .menus .ligne .menu--fourth .menu4 {
-    color: #72BF56;
-    font-family: "flow_extbold";
-    font-size: 35px;
+  color: #72BF56;
+  font-family: "flow_extbold";
+  font-size: 35px;
 }
-
 .menus .ligne .menu {
-    text-align: center;
-    display: flex;
-    width: 400px;
-    height: 30em;
-    /*background-color: $color_fond_1;*/
-    box-shadow: 1px 1px 12px grey;
-    margin: 10px 40px 10px 40px;
-    padding-bottom: 20px;
-    /* &:hover {
+  text-align: center;
+  display: flex;
+  width: 400px;
+  height: 30em;
+  /*background-color: $color_fond_1;*/
+  box-shadow: 1px 1px 12px grey;
+  margin: 10px 40px 10px 40px;
+  padding-bottom: 20px;
+  /* &:hover {
           a {
               transform: scale(1.25);
               opacity: .5;
           }*/
 }
-
 .menus .ligne .menu:hover {
-    transform: scale(1.1);
-    transition: all 330ms ease-in-out;
-    opacity: 0.5;
+  transform: scale(1.1);
+  transition: all 330ms ease-in-out;
+  opacity: 0.5;
 }
-
 .menus .ligne a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    transition: transform 330ms ease-in-out;
-    opacity: 1;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: transform 330ms ease-in-out;
+  opacity: 1;
 }
-
 .menus .ligne a .menu1 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    color: #3D1319;
-    background-color: #FDE0DC;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  color: #3D1319;
+  background-color: #FDE0DC;
 }
-
 .menus .ligne a .menu2 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
+  display: flex;
+  width: 50%;
+  justify-content: center;
 }
-
 .menus .ligne a .menu3 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
+  display: flex;
+  width: 50%;
+  justify-content: center;
 }
-
 .menus .ligne a .menu4 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
+  display: flex;
+  width: 50%;
+  justify-content: center;
 }
-
 .menus .ligne a P {
-    display: flex;
-    width: 50%;
-    justify-content: center;
+  display: flex;
+  width: 50%;
+  justify-content: center;
 }
 
 .titre__menu {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .parti_menu {
-    display: flex;
-    flex-direction: column;
-    max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
 }
-
 .parti_menu .barrtitre {
-    justify-content: space-evenly;
-    display: flex;
-    min-width: 0;
-    min-height: 0;
+  justify-content: space-evenly;
+  display: flex;
+  min-width: 0;
+  min-height: 0;
 }
-
 .parti_menu .barrtitre .barre--size {
-    max-height: 20px !important;
+  max-height: 20px !important;
 }
-
 .parti_menu .barrtitre .barre {
-    display: block;
-    max-height: 6px;
-    margin-top: 30px;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-height: 6px;
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
 }
-
 .parti_menu h2 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 .parti_menu p {
-    margin: 1em 1em 0 1em;
-    display: flex;
-    justify-content: space-between;
+  margin: 1em 1em 0 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
-    width: 65%;
-    margin: 40px auto 160px auto;
-    max-width: 700px;
-    min-height: 800px;
-    padding-bottom: 10px;
+  width: 65%;
+  margin: 40px auto 160px auto;
+  max-width: 700px;
+  min-height: 800px;
+  padding-bottom: 10px;
 }
 
 .container--menu1 {
-    background-color: #FDE0DC;
+  background-color: #FDE0DC;
 }
-
 .container--menu1 .barrtitre h2::after {
-    background: #3D1319;
+  background: #3D1319;
 }
-
 .container--menu1 .prix {
-    font-family: "flow_extbold";
-    font-size: 20px;
+  font-family: "flow_extbold";
+  font-size: 20px;
 }
-
 .container--menu1 p {
-    font-family: "flow_extbold";
-    color: #3D1319;
+  font-family: "flow_extbold";
+  color: #3D1319;
 }
-
 .container--menu1 .titre__menu {
-    font-family: "devonshireregular";
-    color: #3D1319;
-    font-size: 60px;
-    font-weight: lighter;
+  font-family: "devonshireregular";
+  color: #3D1319;
+  font-size: 60px;
+  font-weight: lighter;
 }
-
 .container--menu1 h2 {
-    font-family: "flow_extbold";
-    font-weight: bold;
-    color: #3D1319;
-    font-size: 25px;
+  font-family: "flow_extbold";
+  font-weight: bold;
+  color: #3D1319;
+  font-size: 25px;
 }
-
 .container--menu1 .titre__menu2 {
-    font-family: "devonshireregular";
-    color: #3D1319;
-    font-size: 40px;
-    font-weight: lighter;
+  font-family: "devonshireregular";
+  color: #3D1319;
+  font-size: 40px;
+  font-weight: lighter;
 }
 
 .container--menu2 {
-    background-color: #FFF5FE;
+  background-color: #FFF5FE;
 }
-
 .container--menu2 .barre--size {
-    max-height: 20px;
+  max-height: 20px;
 }
-
 .container--menu2 .prix {
-    font-family: "serif12_betabold";
-    font-size: 20px;
-    font-weight: 500;
+  font-family: "serif12_betabold";
+  font-size: 20px;
+  font-weight: 500;
 }
-
 .container--menu2 p {
-    font-family: "serif12_betabold";
-    font-weight: 500;
+  font-family: "serif12_betabold";
+  font-weight: 500;
 }
-
 .container--menu2 .titre__menu {
-    font-family: "croissant_oneregular";
-    background: linear-gradient(to left, #8F5AFF 0%, #C77412 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 45px;
-    font-weight: lighter;
+  font-family: "croissant_oneregular";
+  background: linear-gradient(to left, #8F5AFF 0%, #C77412 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-weight: lighter;
 }
-
 .container--menu2 h2 {
-    font-family: "serif12_betabold";
-    font-weight: bold;
-    font-size: 25px;
+  font-family: "serif12_betabold";
+  font-weight: bold;
+  font-size: 25px;
 }
-
 .container--menu2 .first {
-    color: #C77412;
+  color: #C77412;
 }
-
 .container--menu2 .first .barrtitre h2::after {
-    background: #C77412;
+  background: #C77412;
 }
-
 .container--menu2 .first p {
-    color: #C77412;
+  color: #C77412;
 }
-
 .container--menu2 .second {
-    color: #B55AA2;
+  color: #B55AA2;
 }
-
 .container--menu2 .second .barrtitre h2::after {
-    background: #B55AA2;
+  background: #B55AA2;
 }
-
 .container--menu2 .second p {
-    color: #B55AA2;
+  color: #B55AA2;
 }
-
 .container--menu2 .third {
-    color: #6E4CCC;
+  color: #6E4CCC;
 }
-
 .container--menu2 .third .barrtitre h2::after {
-    background: #6E4CCC;
+  background: #6E4CCC;
 }
-
 .container--menu2 .third p {
-    color: #6E4CCC;
+  color: #6E4CCC;
 }
 
 .container--menu3 {
-    background-color: #EDEFEF;
-    /* p {
+  background-color: #EDEFEF;
+  /* p {
                   @include gradient_menu3;
                   font-family: 'dancing_script_otregular';
                   font-size: 25px;
@@ -955,145 +786,133 @@ body {
                   font-size: 35px;
               }*/
 }
-
 .container--menu3 .barrtitre h2::after {
-    background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
+  background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
 }
-
 .container--menu3 .prix {
-    font-family: "flow_extbold";
-    font-size: 20px;
+  font-family: "flow_extbold";
+  font-size: 20px;
 }
-
 .container--menu3 p {
-    font-family: "flow_extbold";
+  font-family: "flow_extbold";
 }
-
 .container--menu3 .titre__menu {
-    font-family: "dancing_script_otregular";
-    background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 60px;
-    font-weight: lighter;
+  font-family: "dancing_script_otregular";
+  background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  font-weight: lighter;
 }
-
 .container--menu3 h2 {
-    font-family: "flow_extbold";
-    font-size: 25px;
-    font-weight: lighter;
+  font-family: "flow_extbold";
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 .container--menu4 {
-    background-color: #fbfffb;
+  background-color: #fbfffb;
 }
-
 .container--menu4 .barrtitre h2::after {
-    background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
+  background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
 }
-
 .container--menu4 .prix {
-    font-family: "flow_extbold";
-    font-size: 20px;
+  font-family: "flow_extbold";
+  font-size: 20px;
 }
-
 .container--menu4 p {
-    font-family: "flow_extbold";
+  font-family: "flow_extbold";
 }
-
 .container--menu4 .titre__menu {
-    font-family: "kaushan_scriptregular";
-    background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 60px;
-    font-weight: lighter;
+  font-family: "kaushan_scriptregular";
+  background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  font-weight: lighter;
 }
-
 .container--menu4 h2 {
-    font-family: "flow_extbold";
-    font-size: 25px;
-    font-weight: lighter;
+  font-family: "flow_extbold";
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 .parti_menu--dessert {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .notetitre {
-    margin: auto;
-    display: block;
-    transform: scale(0.7);
+  margin: auto;
+  display: block;
+  transform: scale(0.7);
 }
 
 .pieds--menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-
 .pieds--menu .notetitre2 {
-    margin: 20px 5px 20px auto;
-    display: block;
-    transform: scale(0.5);
+  margin: 20px 5px 20px auto;
+  display: block;
+  transform: scale(0.5);
 }
-
 .pieds--menu .titre__menu2 {
-    margin: 20px auto 20px 5px;
+  margin: 20px auto 20px 5px;
 }
 
 .platprix {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 .platprix .nom_plat {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-
 .platprix .nom_plat p {
-    margin: 1em 1em 0 1em;
-    width: 80%;
+  margin: 1em 1em 0 1em;
+  width: 80%;
 }
-
 .platprix .prix {
-    display: flex;
-    margin-top: 1em;
-    min-width: 50px;
+  display: flex;
+  margin-top: 1em;
+  min-width: 50px;
 }
 
 .mentionslegales {
-    display: flex;
-    width: 60%;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    margin-bottom: 100px;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 100px;
 }
-
 
 /* DEVELOPPEMENT MOBILE*/
-
 @media screen and (max-width: 900px) {
-    .container {
-        width: 90%;
-        margin: 0px auto 120px auto;
-    }
-    .menus .ligne {
-        flex-wrap: wrap;
-    }
-    .menu {
-        width: 300px;
-        margin: 10px 20px;
-    }
-    .barre {
-        display: none !important;
-    }
+  .container {
+    width: 90%;
+    margin: 0px auto 120px auto;
+  }
+
+  .menus .ligne {
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    width: 300px;
+    margin: 10px 20px;
+  }
+
+  .barre {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu {
+    width: 270px !important;
+    margin: 10px 15px 10px 15px !important;
+  }
 }
 
-@media screen and (max-width: 400px) {
-    .menu {
-        width: 270px !important;
-    }
-}
+/*# sourceMappingURL=style.css.map */
